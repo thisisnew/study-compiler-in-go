@@ -4,7 +4,8 @@ import (
 	"bytes"
 	"fmt"
 	"hash/fnv"
-	"monkey/ast"
+	"study-compiler-in-go/ast"
+
 	"strings"
 )
 
