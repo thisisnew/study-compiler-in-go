@@ -2,7 +2,8 @@ package ast
 
 import (
 	"bytes"
-	"monkey/token"
+	"study-compiler-in-go/token"
+
 	"strings"
 )
 
