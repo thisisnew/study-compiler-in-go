@@ -24,12 +24,12 @@ func (c *Compiler) Compile(node ast.Node) error {
 
 func (c *Compiler) Bytecode() *Bytecode {
 	return &Bytecode{
-		Instruction: c.instructions,
-		Constants:   c.constants,
+		Instructions: c.instructions,
+		Constants:    c.constants,
 	}
 }
 
 type Bytecode struct {
-	Instruction code.Instructions
-	Constants   []object.Object
+	Instructions code.Instructions
+	Constants    []object.Object
 }
